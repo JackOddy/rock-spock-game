@@ -4,7 +4,6 @@ export const playGame = ({
     let gameResult = {
         winner: '',
         draw: false,
-        nr: 10,
     }
     
     const gestures = ['rock', 'paper', 'scissors', 'lizard', 'spock']
