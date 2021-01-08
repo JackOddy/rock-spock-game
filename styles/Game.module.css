@@ -1,0 +1,49 @@
+.winner {
+  font-size: 10rem;
+  text-align: center;
+}
+
+.button {
+  font-size: 2rem;
+  font-style: italic;
+  height: 10rem;
+  width: 10rem;
+  transition-property: color, height, width, font-size;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+  border: none;
+  border-radius: 50%;
+  background: #ccc;
+  box-shadow:  7px 7px 12px #333, 
+               -7px -7px 12px #bbb;
+}
+
+.button:hover {
+  font-size: 2.2rem;
+  height: 11rem;
+  width: 11rem;
+  transition-property: color, height, width, font-size;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  /* background: #ffffff; */
+  box-shadow:  7px 7px 12px #333, 
+               -7px -7px 12px #bbb;
+}
+.button:active {
+  border-radius: 50%;
+  /* background: #ffffff; */
+  box-shadow: inset 7px 7px 12px #333, 
+              inset -7px -7px 12px #bbb;
+}
+
+.container {
+  width: 98vw;
+  height: 98vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #bbb;
+}
